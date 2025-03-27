@@ -128,7 +128,7 @@ function App() {
 
       {category && !gameOver &&(
         <div>
-          <p>Mot : {word}</p>
+          
           <p>Mot à deviner : {displayWord()}</p>
           <p>Vies restantes : <span className="vie">{lives}</span> </p>
 
